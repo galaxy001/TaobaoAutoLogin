@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+safari.application.addEventListener('message', function(event) {
+    if (event.name === 'getSettings') {
+        event.target.page.dispatchMessage('setSettings', {
+            username: safari.extension.secureSettings.getItem('username'),
+            password: safari.extension.secureSettings.getItem('password')
+        });
+    }
+}, false);
+</script>
+</body>
+</html>
+
