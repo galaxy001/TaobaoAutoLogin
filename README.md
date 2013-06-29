@@ -1,7 +1,7 @@
 # TaobaoAutoLogin
 
-Auto login safari extension for Taobao.  
-淘宝自动登录 Safari 扩展.
+Auto login safari extension for Taobao and Alipay.  
+淘宝与支付宝自动登录 Safari 扩展.
 
 ## Intro | 简介
 
